@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Gugi|Open+Sans" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Eu sou eu</title>
+</head>
+
+<body>
+<section id="content">
+	<article> 
+		<div class="menu">
+			<ul>
+		<a href="#t0">	<li> Eu </li> </a>
+		<a href="#t1">	<li> Nome </li> </a>
+		<a href="#t2">	<li> Profissão </li> </a>
+		<a href="#t3">	<li> Contato </li> </a>
+		<a href="#t4">	<li> Resumão </li> </a>
+		<a href="#t5">	<li> Formação.. </li> </a>
+		<a href="#t6">	<li> Foto </li> </a>
+		<a href="#t7">	<li> Habilidades </li> </a>
+		<a href="#t8">	<li> Portfólio </li> </a>
+			</ul>
+		</div>
+	</article>
+	
+	<article> 
+		<div id="t0" class="content">
+			<h1 > Resumo de quem sou eu.. </h1>
+			<h3> Olha eu aqui!!!!!!!!!! (No life, full happy) </h3>
+			<img id="qualquer" title="Algo" src="m.jpg" width="50%" height="50%"/>
+			</div>
+	</article>
+	
+	<article> 
+		<div id="t1" class="content">
+		<h3 > Qual o seu nome?! </h3>
+		<p> Sou o matheus.. </p>
+		</div>
+	</article> 
+	
+	<article> 
+		<div id="t2" class="content">
+			<h3 > Trabalha? </h3>
+			<p> Sem emprego, nunca trabalhei, mas pretendendo ser um desenvolvedor... </p>
+		</div>
+	</article> 
+	
+	<article> 
+		<div id="t3" class="content">
+			<h3 > Como posso te contatar? </h3>
+			<ol>
+			<li> Nome: Matheus Felipe Rosa Gonçalves  </li>
+			<li> E-mail: <a href="mailto:matheus.frg@ifsc.edu.br"> matheus.frg@ifsc.edu.br </a> </li>
+			<li> Telefone: (48) 3628-4025  </li>
+			<li> Endereço: Rodovia SC 370 - Km 4 </li>
+			</ul>
+		</div>
+	</article>
+
+	<article> 
+		<div id="t4" class="content">
+			<h3 > Resuma o resumo... </h3>
+			<p> Gosto de programar, jogos virtuais, liberdade e principalmente comprometimento. <br/> Também sou um cara impressionante e bonito.. </p>
+		</div>
+	</article>
+	
+	<article>
+		<div  id="t5" class="content">
+			<h3 > Formação.. </h3>
+			<table border="1">
+			<tr>
+			<th> Formação </th>
+			<th> Nome da Instituição </th>
+			<th> Período de Vínculo </th>
+			<tr>
+			<td> Ensino fundamental completo.  </td>
+			<td rowspan="2"> EEB Martinho Alves dos Santos. </td>
+			<td> 2005-1 à 2013-2. </td>
+			</tr>
+			<tr>
+			<td> Ensino médio completo.  </td>
+			<td> 2013-1 à 2016-2 </td>
+			</tr>
+			<tr>
+			<td> Curso de TI concluído.  </td>
+			<td rowspan="2"> Instituto Federal de Santa Catarina.</td>
+			<td> 2016-1 à 2017-1 </td>
+			</tr>
+			<tr>
+			<td> Cursando a graduação de T-ADS.  </td>
+			<td> 2017-1 à 2019-2 </td>
+			</tr> 
+			</table>
+		</div>
+	</article>
+	
+	<article>
+		<div id="t6" class="content">
+			<h3 > Foto me resumindo..... </h3>
+			<img id="qualquer"  src="foto.jpg" width="50%" height="50%">
+		</div>
+	</article>
+	
+	<article>
+		<div  id="t7" class="content">
+				<h3 > Habilidades... </h3>
+				<ol>
+				<li> <i> Iniciante PHP  </i></li>
+				<li> <i> Iniciante Java </i> </li>
+				<li> <i> Iniciante SQL </i> </li>
+				<li> <i> Iniciante C </i> </li>
+				<li> <i> Topperson no Português </i> </li>
+			</ol>
+		</div>
+	</article>
+	
+	<article>
+	<div  id="t8" class="content">
+				<h3 > Portfólio... </h3>
+				<p> Só tenho o meu projeto integrador... <p>
+				<p id="p"> HomeMade </p> 
+				<p> Basicamente é um site de culinária onde você pode publicar suas receitas e ser reconhecido por elas. Possui rankings de busca e afins. </p>
+				<img title="eu" src="Trabalho.jpg" width="100%" height="100%"/>
+		</div>
+	
+	</article>
+</section>
+
+
+
+
+
+<style>
+
+#content{
+	display:flex;
+	flex-direction: column;
+}
+
+ul li:hover{
+	background-color:black;
+	color:white;
+}
+
+img:hover{
+	-moz-transform: scale(1.01);
+	-webkit-transform: scale(1.01);
+	transform: scale(1.01);
+}
+
+img{
+	border-radius:15px;
+	border: solid;
+	border-color:black;
+}
+
+ul li{
+	list-style-type:none;
+	display:inline;
+	padding-left:15px;
+	padding-right:15px;
+	margin-right:10px;
+	margin-left:10px;
+	background-color:white;
+	font-size:25px;
+	color:black;
+	border-radius:15px;
+	text-decoration:none;
+	float:left;
+}
+
+table{
+	border-radius:15px;
+	padding:15px;
+}
+
+table:hover{
+background-color:black;
+color:white;
+}
+
+body{
+	background-color:black;
+}
+
+#p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.content{
+	padding-top:15px;
+	background-color:white;
+	margin-top:20px;
+	margin-left:15%;
+	margin-right:15%;
+	border-radius:15px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10px;
+	align: center;
+}
+
+.menu{
+	padding-right:15%;
+	padding-left:15%;
+}
+
+h1{
+font-family: 'Gugi', cursive;
+}
+
+h3{
+font-family: 'Open Sans', sans-serif;
+}
+
+
+#item1{
+	display:flex;
+	flex-direction:row;
+	align-items: strech;
+}
+
+</style>
+
+</body>
+</html>
